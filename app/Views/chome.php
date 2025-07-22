@@ -19,7 +19,7 @@
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.3.1/dist/aos.css" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://kit.fontawesome.com/c529debf55.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/af4b0dda8b.js" crossorigin="anonymous"></script>
     </head>
   <body>
 
