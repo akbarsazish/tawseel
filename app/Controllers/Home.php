@@ -2,16 +2,26 @@
 
 namespace App\Controllers;
 use App\Models\SiteInfoModel;
-use App\Models\HomeInfoModel;
+use App\Models\homeInfoModel;
 use App\Models\KeyHighlightModel;
 use App\Models\HighlightItemModel;
 use App\Models\MenuModel;
 use App\Models\MenuItemModel;
 
+use Dompdf\Dompdf;
+use Dompdf\Options;
+use Mpdf\Mpdf;
+use Mpdf\Config\ConfigVariables;
+use Mpdf\Config\FontVariables;
+
+use Dompdf\Adapter\CPDF;
+use Dompdf\FontMetrics;
+
+
 class Home extends BaseController
 {
     protected $siteInfoModel;
-    protected $HomeInfoModel;
+    protected $homeInfoModel;
     protected $KeyHighlightModel;
     protected $HighlightItemModel;
     protected $MenuModel;
@@ -19,37 +29,39 @@ class Home extends BaseController
 
     public function __construct(){
         $this->siteInfoModel = new SiteInfoModel();
-        $this->HomeInfoModel = new HomeInfoModel();
+        $this->homeInfoModel = new homeInfoModel();
         $this->KeyHighlightModel = new KeyHighlightModel();
         $this->HighlightItemModel = new HighlightItemModel();
+
         $this->MenuModel = new MenuModel();
         $this->MenuItemModel = new MenuItemModel();
-        
+
         helper('app');
     }
     
     public function index(): string {
         $siteInfo = $this->siteInfoModel->first();
-        $result = $this->HomeInfoModel->get();
+        $result = $this->homeInfoModel->get();
         $homeInfos = $result->getResultArray();
         $highLights = $this->KeyHighlightModel->first();
         $result = $this->HighlightItemModel->get();
         $highlightItems = $result->getResultArray();
+
+         // Fetch menus by title (use 'title_en', or by 'id')
         $legalInfo    = $this->MenuModel->where('title_en', 'Legal Information')->first();
         $services     = $this->MenuModel->where('title_en', 'Services')->first();
         $links        = $this->MenuModel->where('title_en', 'Links')->first();
-        $data['legalItems']  = $legalInfo ? 
-        $this->MenuItemModel->where('menu_id', $legalInfo['id'])->orderBy('order', 'asc')->findAll() : [];
-        $data['serviceItems'] = $services ?
-        $this->MenuItemModel->where('menu_id', $services['id'])->orderBy('order', 'asc')->findAll() : [];
-        $data['linkItems']   = $links ?
-        $this->MenuItemModel->where('menu_id', $links['id'])->orderBy('order', 'asc')->findAll() : [];
 
-        $url = $_SERVER['REQUEST_URI'];
-        
-        $url = substr($url,1);
-        
-        return view($url.'/home', [
+        // Fetch their menu items
+        $data['legalItems']  = $legalInfo ? 
+            $this->MenuItemModel->where('menu_id', $legalInfo['id'])->orderBy('order', 'asc')->findAll() : [];
+        $data['serviceItems'] = $services ?
+            $this->MenuItemModel->where('menu_id', $services['id'])->orderBy('order', 'asc')->findAll() : [];
+        $data['linkItems']   = $links ?
+            $this->MenuItemModel->where('menu_id', $links['id'])->orderBy('order', 'asc')->findAll() : [];
+
+
+        return view('home/home', [
             'siteInfo' => $siteInfo,
             'homeInfos' => $homeInfos,
             'highLights' => $highLights,
@@ -58,7 +70,9 @@ class Home extends BaseController
             'serviceItems' => $data['serviceItems'],
             'linkItems' => $data['linkItems'],
         ]);
+
     }
+
 
 
     public function loadimg($sec, $fileName){
@@ -78,6 +92,58 @@ class Home extends BaseController
     }
 
 
+public function contract() {
+    // Get logo as base64 (same as before)
+        // return view('contract/pdf_generator');
+      
+        $logoPath = WRITEPATH . 'uploads/img/logo.png';
+        $logoBase64 = '';
+        if (file_exists($logoPath)) {
+            $logoBase64 = 'data:' . mime_content_type($logoPath) . ';base64,' . base64_encode(file_get_contents($logoPath));
+        } else {
+            $placeholderPath = WRITEPATH . 'placeholder.svg';
+            $logoBase64 = 'data:image/svg+xml;base64,' . base64_encode(file_get_contents($placeholderPath));
+        }
+
+
+    $data = [
+        'logo' => $logoBase64,
+        'companyName_en' => 'Nasayim Almaerifa Projects SPC',
+        'companyName_ar' => 'مشاريع نسائم المعرفة ش ش و',
+        'companyName1_en' => 'Tawseel E-Commerce and Logistics LLC',
+        'companyName2_ar' => 'توصيل للتجارة الإلكترونية واللوجستيات ش م م',
+    ];
+
+    // Configure mPDF
+    $mpdf = new Mpdf([
+        'mode' => 'utf-8',
+        'format' => 'A4',
+        'default_font' => 'almohanad',
+        'directionality' => 'rtl',
+        'autoScriptToLang' => true,
+        'autoLangToFont' => true,
+        'margin_top' => 40,    // Increased for header
+        'margin_bottom' => 40, // Increased for footer
+        'margin_header' => 5,
+        'margin_footer' => 5,
+    ]);
+
+    // Set header and footer
+    $header = view('contract/header', $data);
+    $footer = view('contract/footer', $data);
+    
+    $mpdf->SetHTMLHeader($header);
+    $mpdf->SetHTMLFooter($footer);
+
+    // Main content WITHOUT repeated headers/footers
+    $mainContent = view('contract/pdf_generator', $data);
+    $mpdf->WriteHTML($mainContent);
+
+    $mpdf->Output('contract.pdf', 'I');
+    exit;
+}
+
+
     public function terms(){
         return view('terms/terms');
     }
@@ -90,13 +156,7 @@ class Home extends BaseController
         return view('terms/refund');
     }
 
-    public function viewFile($filename)
-    {
-        if(!file_access($filename))
-        {
-            throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
-        }
-        
+    public function viewFile($filename){
         $filePath = WRITEPATH . 'uploads/documents/' . $filename;
     
         if (!file_exists($filePath)) 
