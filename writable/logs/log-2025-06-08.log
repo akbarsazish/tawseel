@@ -1,0 +1,18 @@
+CRITICAL - 2025-06-08 16:34:27 --> hex2bin(): Hexadecimal input string must have an even length
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/app/Helpers/app_helper.php(61): hex2bin()
+#2 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/app/Controllers/Auth.php(726): dec()
+#3 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(936): App\Controllers\Auth->password_reset()
+#4 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-06-08 16:34:31 --> hex2bin(): Input string must be hexadecimal string
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/app/Helpers/app_helper.php(61): hex2bin()
+#2 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/app/Controllers/Auth.php(726): dec()
+#3 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(936): App\Controllers\Auth->password_reset()
+#4 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

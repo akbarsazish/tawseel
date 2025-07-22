@@ -1,0 +1,10 @@
+CRITICAL - 2025-06-02 17:49:12 --> Invalid file: dashboard.php
+#0 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/View/View.php(236): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/Common.php(1217): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/app/Controllers/Auth.php(678): view()
+#4 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(936): App\Controllers\Auth->user()
+#5 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

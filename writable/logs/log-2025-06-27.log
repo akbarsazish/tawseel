@@ -1,0 +1,92 @@
+CRITICAL - 2025-06-27 06:37:05 --> Class "App\Models\homeInfoModel" not found
+#0 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(908): App\Controllers\Home->__construct()
+#1 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-06-27 06:37:06 --> Class "App\Models\homeInfoModel" not found
+#0 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(908): App\Controllers\Home->__construct()
+#1 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-06-27 06:37:13 --> Class "App\Models\homeInfoModel" not found
+#0 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(908): App\Controllers\Home->__construct()
+#1 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-06-27 06:37:14 --> Class "App\Models\homeInfoModel" not found
+#0 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(908): App\Controllers\Home->__construct()
+#1 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-06-27 06:37:35 --> Class "App\Models\homeInfoModel" not found
+#0 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(908): App\Controllers\Home->__construct()
+#1 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-06-27 06:38:38 --> Class "App\Models\homeInfoModel" not found
+#0 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(908): App\Controllers\Home->__construct()
+#1 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2025-06-27 06:43:42 --> Class "App\Models\homeInfoModel" not found
+#0 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(908): App\Controllers\Home->__construct()
+#1 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2025-06-27 07:01:41 --> mysqli_sql_exception: Table 'client_67b5d9b_e_.homeInfo' doesn't exist in /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/app/Controllers/Home.php(29): CodeIgniter\Model->__call()
+#6 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#7 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-27 07:01:41 --> Table 'client_67b5d9b_e_.homeInfo' doesn't exist
+#0 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/app/Controllers/Home.php(29): CodeIgniter\Model->__call()
+#6 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#7 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-06-27 07:01:42 --> mysqli_sql_exception: Table 'client_67b5d9b_e_.homeInfo' doesn't exist in /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/app/Controllers/Home.php(29): CodeIgniter\Model->__call()
+#6 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#7 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-06-27 07:01:42 --> Table 'client_67b5d9b_e_.homeInfo' doesn't exist
+#0 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/app/Controllers/Home.php(29): CodeIgniter\Model->__call()
+#6 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#7 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}

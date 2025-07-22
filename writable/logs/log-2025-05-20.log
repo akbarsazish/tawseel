@@ -1,0 +1,33 @@
+CRITICAL - 2025-05-20 18:13:39 --> Cannot access offset of type string on string
+#0 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/View/View.php(220): include()
+#1 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/Common.php(1217): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/app/Controllers/Auth.php(675): view()
+#4 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(936): App\Controllers\Auth->user()
+#5 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-20 18:14:51 --> Cannot access offset of type string on string
+#0 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/View/View.php(220): include()
+#1 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/Common.php(1217): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/app/Controllers/Auth.php(675): view()
+#4 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(936): App\Controllers\Auth->user()
+#5 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-05-20 18:30:06 --> Trying to access array offset on value of type null
+#0 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/app/Helpers/app_helper.php(472): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/app/Views/other.php(66): is_location()
+#2 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/View/View.php(220): include('...')
+#3 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/View/View.php(236): CodeIgniter\View\View->render()
+#5 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/Common.php(1217): CodeIgniter\View\View->render()
+#6 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/app/Controllers/Auth.php(550): view()
+#7 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(936): App\Controllers\Auth->password()
+#8 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/myapp/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/vhosts/test.tawseelonline.om/tawseelonline.om/index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
