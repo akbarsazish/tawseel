@@ -71,6 +71,7 @@
           <li><a href="javascript:void(0)" onclick="alert('Under Development...')"><?=lang('app.blogs')?></a></li>
           <li><a href="<?=base_url('contact')?>" onclick="loadding();"><?=lang('app.contact')?></a></li>
           <li><a href="<?=base_url('about')?>" onclick="loadding();"><?=lang('app.about')?></a></li>
+          <li><a target="_blank" href="<?=base_url('contract')?>" onclick="loadding();"> Contract </a></li>
 
           <?php
           if(login())

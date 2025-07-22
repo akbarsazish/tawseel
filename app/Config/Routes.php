@@ -86,6 +86,8 @@ $routes->get('terms-conditions', 'Home::terms');
 $routes->get('privacy-policy', 'Home::policy');
 $routes->get('refund-cancellation', 'Home::refund');
 
+$routes->get('contract', 'Home::contract');
+
 $routes->get('mybusiness/create', 'MyBusiness::create');
 $routes->post('mybusiness/upgrade', 'MyBusiness::upgrade');
 
