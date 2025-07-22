@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 use App\Models\SiteInfoModel;
-use App\Models\homeInfoModel;
+use App\Models\HomeInfoModel;
 use App\Models\KeyHighlightModel;
 use App\Models\HighlightItemModel;
 use App\Models\MenuModel;
@@ -21,7 +21,7 @@ use Dompdf\FontMetrics;
 class Home extends BaseController
 {
     protected $siteInfoModel;
-    protected $homeInfoModel;
+    protected $HomeInfoModel;
     protected $KeyHighlightModel;
     protected $HighlightItemModel;
     protected $MenuModel;
@@ -29,7 +29,7 @@ class Home extends BaseController
 
     public function __construct(){
         $this->siteInfoModel = new SiteInfoModel();
-        $this->homeInfoModel = new homeInfoModel();
+        $this->HomeInfoModel = new HomeInfoModel();
         $this->KeyHighlightModel = new KeyHighlightModel();
         $this->HighlightItemModel = new HighlightItemModel();
 
@@ -52,7 +52,7 @@ class Home extends BaseController
         }
 
         $siteInfo = $this->siteInfoModel->first();
-        $result = $this->homeInfoModel->get();
+        $result = $this->HomeInfoModel->get();
         $homeInfos = $result->getResultArray();
         $highLights = $this->KeyHighlightModel->first();
         $result = $this->HighlightItemModel->get();
