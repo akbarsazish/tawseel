@@ -4,13 +4,20 @@ namespace App\Controllers;
 use CodeIgniter\API\ResponseTrait;
 use App\Models\PartnershipModel;
 use App\Models\PartnershipItemModel;
+use App\Models\MenuModel;
+use App\Models\MenuItemModel;
 
 class Partnership extends BaseController {
     protected $Partnership;
+    protected $MenuModel;
+    protected $MenuItemModel;
     
     public function __construct(){
         $this->PartnershipModel = new PartnershipModel();
         $this->partnershipItemModel = new PartnershipItemModel();
+        $this->MenuModel = new MenuModel();
+        $this->MenuItemModel = new MenuItemModel();
+
         helper('app');
         helper('form');
          $request = \Config\Services::request();
@@ -29,7 +36,26 @@ class Partnership extends BaseController {
     public function allPartner(){
         $partnerships = $this->PartnershipModel->first();
          $items = $this->partnershipItemModel->findAll();
-        return view('partnership/allpartner', ['partnerships' => $partnerships, 'items' => $items]);
+                  // Fetch menus by title (use 'title_en', or by 'id')
+        $legalInfo    = $this->MenuModel->where('title_en', 'Legal Information')->first();
+        $services     = $this->MenuModel->where('title_en', 'Services')->first();
+        $links        = $this->MenuModel->where('title_en', 'Links')->first();
+
+        // Fetch their menu items
+        $data['legalItems']  = $legalInfo ? 
+            $this->MenuItemModel->where('menu_id', $legalInfo['id'])->orderBy('order', 'asc')->findAll() : [];
+        $data['serviceItems'] = $services ?
+            $this->MenuItemModel->where('menu_id', $services['id'])->orderBy('order', 'asc')->findAll() : [];
+        $data['linkItems']   = $links ?
+            $this->MenuItemModel->where('menu_id', $links['id'])->orderBy('order', 'asc')->findAll() : [];
+
+
+        return view('partnership/allpartner', [
+            'partnerships' => $partnerships, 'items' => $items,
+            'legalItems' => $data['legalItems'],
+            'serviceItems' => $data['serviceItems'],
+            'linkItems' => $data['linkItems'],
+        ]);
     }
 
 
