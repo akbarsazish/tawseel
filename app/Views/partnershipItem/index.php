@@ -4,7 +4,7 @@
             <div class="col-lg-6">
                 <h5><?= lang('app.partnership_item') ?></h5>
             </div>
-            <div class="col-lg-6 text-right">
+            <div class="col-lg-6 text-end">
                 <?php if ($items !== null): ?>
                     <a href="javascript:void(0)" onclick="loadMe('<?= base_url('partnershipitem/create') ?>')" class="btn btn-primary">
                         Add  <i class="fa fa-plus"></i>

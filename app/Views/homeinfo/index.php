@@ -4,7 +4,7 @@
             <div class="col-lg-6">
                 <h5><?= lang('app.homeinfo') ?></h5>
             </div>
-            <div class="col-lg-6 text-right">
+            <div class="col-lg-6 text-end">
                 <?php if ($homeInfos !== null): ?>
                     <a href="javascript:void(0)" onclick="loadMe('<?= base_url('homeinfo/create') ?>')" class="btn btn-primary" id="siteInfoAddBtn" >
                         Add  <i class="fa fa-plus"></i>

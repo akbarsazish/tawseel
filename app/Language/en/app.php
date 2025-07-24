@@ -14,6 +14,7 @@ return [
     'author' => 'hamidmahzon.com',
     'announcement'  => 'Tawseel E-Commerce and Logistics LLC is excited to unveil new enhancements designed to elevate your experience! Our platform now empowers you to effortlessly grow your business in local markets and global audiences. With upgraded tools and features, expanding worldwide has never been simpler. Stay connected for more updates as we continue driving your success!',
     'keyHighlights'    => 'Key Highlights',
+    'add_key_highlight' => 'Add Key Highlight',
     'keyHighlightsDecs'  => 'Delivering Essential Digital Services for All, Backed by Expertise.',
     'activity'  => 'Activity',
     'eCommerce'    =>    'E-Commerce',

@@ -5,7 +5,7 @@
             <div class="col-lg-6">
                 <h5><?= lang('app.key_highlight') ?></h5>
             </div>
-            <div class="col-lg-6 text-right">
+            <div class="col-lg-6 text-end">
                 <?php if ($highLights !== null): ?>
                     <a href="javascript:void(0)" onclick="loadMe('<?= base_url('keyhighlight/edit/'. enc($highLights['id'])) ?>')" class="btn btn-primary"> Edit <i class="fa fa-edit"></i>  </a>
                     <button onclick="deleteKeyHighlight('<?= base_url('/keyhighlight/delete/') . enc($highLights['id']) ?>')" class="btn btn-danger">
@@ -44,7 +44,7 @@
                         <p class="border-bottom">  <strong> Title: </strong> <?= isset($highLights['title_en']) ? esc($highLights['title_en']) : '' ?> </p>
                         <p class="border-bottom">  <strong> Subtitle </strong> <?= isset($highLights['subtitle_en']) ? esc($highLights['subtitle_en']) : '' ?> </p>
                     </div>
-                    <div class="col-lg-6 p-4 text-right">
+                    <div class="col-lg-6 p-4 text-end">
                         <p class="border-bottom ">  <strong> تایتل </strong> <?= isset($highLights['title_ar']) ? esc($highLights['title_ar']) : '' ?></p>
                         <p class="border-bottom ">  <strong> تایتل فرعی </strong> <?= isset($highLights['subtitle_ar']) ? esc($highLights['subtitle_ar']) : '' ?></p>
                     </div>

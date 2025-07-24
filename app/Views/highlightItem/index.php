@@ -2,9 +2,9 @@
     <div class="card-header">
          <div class="row">
             <div class="col-lg-6">
-                <h5><?= lang('app.key_highlight_Item') ?></h5>
+                <h5><?= lang('app.add_key_highlight') ?></h5>
             </div>
-            <div class="col-lg-6 text-right">
+            <div class="col-lg-6 text-end">
                 <?php if ($highlightItems !== null): ?>
                     <a href="javascript:void(0)" onclick="loadMe('<?= base_url('highlightitems/create') ?>')" class="btn btn-primary" id="siteInfoAddBtn" >
                         Add  <i class="fa fa-plus"></i>

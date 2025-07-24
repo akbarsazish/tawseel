@@ -6,7 +6,7 @@
                 <h5><?= lang('app.partnership') ?></h5>
             </div>
 
-            <div class="col-lg-6 text-right">
+            <div class="col-lg-6 text-end">
                 <?php if ($partnerships !== null && isset($partnerships['id'])): ?>
                     <a href="javascript:void(0)" onclick="loadMe('<?= base_url('partnership/edit/'. enc($partnerships['id'])) ?>')" class="btn btn-primary"> Edit <i class="fa fa-edit"></i>  </a>
                     <button onclick="deletePartner('<?= base_url('/partnership/delete/') . enc($partnerships['id']) ?>')" class="btn btn-danger">
