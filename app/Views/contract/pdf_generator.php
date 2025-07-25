@@ -44,6 +44,7 @@
         border: 1px solid #d1dbe5;
         font-weight: bold;
     }
+
     .info-table td {
         border: 2px solid #000;
         padding: 6px 7px;
@@ -97,6 +98,9 @@
         padding: 5px;
     }
 
+    .marginTop {
+        margin-top: 5px;
+    }
     
     .headerItem {
         font-weight:bold;
@@ -104,6 +108,10 @@
         padding: 0;
         display: block; 
         width: 100%;
+    }
+
+    hr {
+        margin: 5px 0px;
     }
 
     /* Added these new styles */
@@ -329,9 +337,9 @@
                 <td style="width: 6%;"> &nbsp;  3 </td>
                 <td colspan="2" >
                     <div style="font-weight:bold;">
-                        &nbsp; APPOINTMENT OF LOGISTICS SERVICE PROVIDER
+                        &nbsp; APPOINTMENT OF LOGISTICS SERVICE PROVIDER 
                     </div>  
-                    <table class="innerTable">
+                    <table class="innerTable marginTop">
                         <tbody>
                             <tr>
                                 <td rowspan="2" style="width: 6%;"> &nbsp;  3.1 </td>
@@ -353,7 +361,7 @@
                     <div> <span style="font-weight:bold; padding-bottom:5px;"> 
                        &nbsp; Nasayim Almaerifa Projects (SDS) </span> shall have the following responsibilities: 
                     </div>  
-                    <table class="innerTable">
+                    <table class="innerTable marginTop">
                         <tbody>
                             <tr>
                                 <td style="width: 6%;"> 4.1 </td>
@@ -407,7 +415,7 @@
                 </tr>
                 <tr>
                     <td style="width: 6%;"> &nbsp; 5 </td>
-                      <td colspan="2" style="padding:0px; border-left:none; border-right:none">
+                      <td colspan="2" style="border-left:none; border-right:none">
                         <div style="font-weight:bold; padding:5px"> &nbsp; AGREEMENT ADMINISTRATION </div>
                         <table class="innerTable">
                             <tbody>
@@ -454,7 +462,7 @@
                 </tr>
                 <tr>
                     <td> &nbsp; 6 </td>
-                        <td colspan="2" style="padding:0px; bordeborder-left:none; border-right:none">
+                        <td colspan="2" style="bordeborder-left:none; border-right:none">
                         <div style="font-weight:bold; padding:6px;"> &nbsp; COMPENSATION AND PAYMENT </div>
                         <table class="innerTable">
                             <tbody>
@@ -498,12 +506,11 @@
                              Nasayim Almaerifa Projects (SDS)shall have the right to engage and employ such individuals and agents as may be necessary for connection 
                              with theservices to be provided under this Agreement, provided that such individuals and agents shall be subject to control, 
                              contractual or otherwise, solely and exclusively by the Logistics Service Provider. 
-                       
-                    </td>
+                        </td>
                 </tr>
                 <tr>
                     <td> &nbsp; 8 </td>
-                        <td colspan="2" style="padding:0px; border-left:none; border-right:none">
+                        <td colspan="2" style="border-left:none; border-right:none">
                         <div style="font-weight:bold;"> &nbsp; LIABILITY </div>
                         <table class="innerTable">
                             <tbody>
@@ -520,7 +527,7 @@
                                 <tr>
                                     <td> 8.3 </td>
                                      <td  style="padding:0px; border-left:none; border-right:none">
-                                       <div style="font-weight:bold;">  &nbsp; [COMPANY NAME] shall have </div>
+                                       <div style="font-weight:bold;"> &nbsp; [COMPANY NAME] shall have </div>
                                        
                                         <table class="agreement" style="border: 1px solid #000">
                                             <tbody>
@@ -610,14 +617,14 @@
                 </tr>
                 <tr>
                     <td> &nbsp;  9 </td>
-                    <td colspan="2" style="padding:0px; border-left:none; border-right:none">
+                    <td colspan="2" style="border-left:none; border-right:none">
                         <div style="padding:15px; font-weight:bold"> &nbsp; RECEIPTS </div> <hr>
                         <div> &nbsp; Each incident of transportation of property under this Agreement shall be evidenced by a written receipt in a form and manner approved. To the extent any term or condition of any receipt conflicts in any way with any term or condition of this Agreement, this Agreement shall take precedence and prevail. </div> 
                     </td> 
                 </tr>
                 <tr>
                     <td rowspan="1"> &nbsp; 10 </td>
-                    <td style="padding:0px; border-left:none; border-right:none">
+                    <td style="border-left:none; border-right:none">
                         <div style=" font-weight:bold;">
                             &nbsp; INSURANCE
                         </div>
@@ -721,8 +728,8 @@
                 </tr>
                 <tr>
                     <td> &nbsp; 13 </td>
-                    <td  style="padding:0px; border-left:none; border-right:none">
-                        <div style="padding:5px;border-bottom:1px solid #000; font-weight:bold">
+                    <td  style="border-left:none; border-right:none">
+                        <div style="font-weight:bold">
                            &nbsp; RECORDS; AUDIT
                         </div>
                         
@@ -781,8 +788,8 @@
             <tbody>
                 <tr>
                     <td style="width:6%"> &nbsp; 14 </td>
-                    <td colspan="2" style="padding:0px; border-left:none; border-right:none">
-                        <div style="padding:5px; font-weight:bold">
+                    <td colspan="2" style="border-left:none; border-right:none">
+                        <div style="font-weight:bold">
                             ENVIRONMENTAL POLICY  
                         </div> <hr>
                         <div>
@@ -796,8 +803,8 @@
                 </tr>
                 <tr>
                     <td> &nbsp; 15 </td>
-                    <td  style="padding:0px; border-left:none; border-right:none">
-                        <div style="padding:5px; font-weight:bold">
+                    <td  style="border-left:none; border-right:none">
+                        <div style="font-weight:bold">
                            &nbsp; COMPLIANCE WITH APPLICABLE LAWS AND REGULATIONS
                         </div> <hr>
                         <div>
@@ -812,9 +819,9 @@
                 </tr>
                 <tr>
                     <td> &nbsp; 16 </td>
-                    <td style="padding:0px; border-left:none; border-right:none">
-                        <div style="padding:5px;  font-weight:bold">
-                            PROHIBITED PAYMENTS
+                    <td style="border-left:none; border-right:none">
+                        <div style="font-weight:bold">
+                           &nbsp; PROHIBITED PAYMENTS
                         </div> <hr>
                         <div style="padding:10px"> 
                             The Logistics Service Provider shall comply with all laws of the countries in which
@@ -1002,7 +1009,7 @@
                 </tr>
                 <tr>
                     <td style="6%"> &nbsp; 17 </td>
-                    <td  style="padding:0px; border-left:none; border-right:none">
+                    <td  style="border-left:none; border-right:none">
                         <div style="font-weight:bold">
                           &nbsp; GLOBAL CONDITIONS
                         </div> <hr>
@@ -1023,8 +1030,8 @@
                 </tr>
                 <tr>
                    <td style="6%"> &nbsp;  18 </td>
-                    <td  style="padding:0px; border-left:none; border-right:none">
-                        <div style="padding:5px; font-weight:bold">
+                    <td  style="border-left:none; border-right:none">
+                        <div style="font-weight:bold">
                             &nbsp; NON-ASSIGNABILITY
                         </div> <hr>
                         <div>
@@ -1038,8 +1045,8 @@
                 </tr>
                 <tr>
                     <td style="6%"> &nbsp;  19 </td>
-                    <td  style="padding:0px; border-left:none; border-right:none">
-                        <div style="padding:5px; font-weight:bold">
+                    <td  style="border-left:none; border-right:none">
+                        <div style="font-weight:bold">
                             &nbsp; CONFIDENTIALITY
                         </div> <hr>
                         <div>
@@ -1080,8 +1087,8 @@
                 </tr>
                 <tr>
                     <td> &nbsp;  20 </td>
-                    <td  style="padding:0px; border-left:none; border-right:none">
-                        <div style="padding:5px; font-weight:bold">
+                    <td  style="border-left:none; border-right:none">
+                        <div style="font-weight:bold">
                           &nbsp; TERMINATION
                         </div> <hr>
                         <div>
@@ -1124,7 +1131,7 @@
                 </tr>
                 <tr>
                     <td> &nbsp; 21 </td>
-                    <td  style="padding:0px; border-left:none; border-right:none">
+                    <td  style="border-left:none; border-right:none">
                         <div style="font-weight:bold">
                            &nbsp; CONTINUING COOPERATION
                         </div> <hr>
@@ -1141,7 +1148,7 @@
                 </tr>
                 <tr>
                     <td> &nbsp; 22 </td>
-                    <td  style="padding:0px; border-left:none; border-right:none">
+                    <td  style="border-left:none; border-right:none">
                         <div style="font-weight:bold">
                           &nbsp;  FORCE MAJEURE
                         </div>
@@ -1182,8 +1189,8 @@
             <tbody>
                 <tr>
                     <td style="width:6%"> &nbsp; 23 </td>
-                    <td  style="padding:0px; border-left:none; border-right:none">
-                        <div style="padding:5px; font-weight:bold">
+                    <td  style="border-left:none; border-right:none">
+                        <div style="font-weight:bold">
                            &nbsp; HEADINGS
                         </div> <hr>
                         <div>
@@ -1194,9 +1201,9 @@
                 </tr>
                 <tr>
                     <td> &nbsp; 24 </td>
-                    <td  style="padding:0px; border-left:none; border-right:none">
+                    <td  style="border-left:none; border-right:none">
                         <div style="font-weight:bold">
-                            &nbsp;  -SEVERABILITY
+                            &nbsp; -SEVERABILITY
                         </div> <hr>
                         <div>
                             In the event any phrase, clause, sentence, or other provision contained in this Agreement shall
@@ -1208,7 +1215,7 @@
                 </tr>
                 <tr>
                     <td> &nbsp; 25 </td>
-                    <td  style="padding:0px; border-left:none; border-right:none">
+                    <td  style="border-left:none; border-right:none">
                         <div style="font-weight:bold">
                            &nbsp; NOTICES
                         </div> <hr>
@@ -1268,8 +1275,8 @@
                 </tr>
                  <tr>
                     <td> &nbsp; 26 </td>
-                    <td  style="padding:0px; border-left:none; border-right:none">
-                        <div style="font-weight:bold">
+                    <td style="border-left:none; border-right:none">
+                        <div style="font-weight:bold;">
                             &nbsp;  ENTIRE AGREEMENT
                         </div> <hr>
                         <div>
@@ -1281,7 +1288,7 @@
                 </tr>
                  <tr>
                     <td> &nbsp; 27 </td>
-                    <td  style="padding:0px; border-left:none; border-right:none">
+                    <td  style="border-left:none; border-right:none">
                         <div style="font-weight:bold">
                             &nbsp; WAIVER
                         </div> <hr>
@@ -1294,7 +1301,7 @@
                 </tr>
                  <tr>
                     <td> &nbsp; 28 </td>
-                    <td  style="padding:0px; border-left:none; border-right:none">
+                    <td style="border-left:none; border-right:none">
                         <div style="font-weight:bold">
                           &nbsp; PRECEDENCE
                         </div> <hr>
@@ -1317,7 +1324,7 @@
             <tbody>
                 <tr>
                     <td style="width:6%">29</td>
-                    <td colspan="2" style="padding:0; border-left:none; border-right:none">
+                    <td colspan="2" style="border-left:none; border-right:none">
                         <div style="font-weight:bold">
                            &nbsp;  SURVIVAL
                         </div>
@@ -1330,7 +1337,7 @@
                 </tr>
                 <tr>
                     <td>30</td>
-                    <td colspan="2" style="padding:0; border-left:none; border-right:none">
+                    <td colspan="2" style="border-left:none; border-right:none">
                         <div style="font-weight:bold">
                              &nbsp;  CURRENCY
                         </div>
