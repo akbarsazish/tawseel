@@ -1,4 +1,4 @@
-<table class="info-table">
+<table class="headerTable">
     <tbody>
         <tr>
             <td style="width: 15%;">

@@ -19,9 +19,9 @@
     
     .contract-container {
         width: 100%;
+        max-width:1400px;
         background: white;
         padding: 20px;
-        max-width:1200px;
         margin: 0 auto;
     }
 
@@ -38,20 +38,13 @@
         font-size:12px
     }
     
-    .info-table th {
-        padding: 8px;
-        text-align: left;
-        border: 1px solid #d1dbe5;
-        font-weight: bold;
-    }
-
     .info-table td {
         border: 2px solid #000;
         padding: 6px 7px;
         vertical-align: middle;
     }
 
-    .info-table .rtl {
+    .info-table, .footerTable .rtl {
         direction: rtl;
         text-align: right;
         font-family: Tahoma, 'Arial', sans-serif;
@@ -91,7 +84,36 @@
         border-right: 1px solid #000;
     }
 
-    table.innerTable th, 
+    .headerTable{
+        border-collapse: collapse;
+        padding: 20px;
+        max-width:1200px;
+        width:94%;
+        border: 2px solid #000;
+        font-size:16px;
+        margin: 10px auto;
+    }
+
+    .headerTable td {
+        border: 2px solid #000;
+        padding: 6px 7px;
+        vertical-align: middle;
+    }
+
+    .footerTable {
+        border-collapse: collapse;
+        max-width:1200px;
+        width:94%;
+        border: 2px solid #000;
+        margin: 30px auto;
+    }
+
+    .footerTable td {
+        border: 2px solid #000;
+        padding: 4px 3px;
+        vertical-align: middle;
+    }
+
     table.innerTable td {
         padding: 6px 7px;
         vertical-align: top;
@@ -115,21 +137,6 @@
         margin: 5px 0px;
     }
 
-    /* Added these new styles */
-    @media print {
-        .page-break {
-            page-break-before: always;
-        }
-        .avoid-break {
-            page-break-inside: avoid;
-        }
-    }
-    .content-section {
-        padding-bottom: 5mm; /* Added space before footer */
-    }
-    .notSpelit {
-        page-break-inside: avoid; /* Prevent table splitting */
-    }
 </style>
   
     </style>
