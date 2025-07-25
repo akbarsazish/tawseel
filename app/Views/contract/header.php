@@ -1,14 +1,14 @@
-<table class="info-table" style="width: 100%;">
+<table class="info-table">
     <tbody>
         <tr>
             <td style="width: 15%;">
                 <img src="<?= $logo ?>" alt="Tawseel Logo" style="height: 80px;">
             </td>
-            <td colspan="5" align="center" style="width: 70%;">
-                <p class="headerItem"><?= $companyName_en ?></p>
-                <p class="headerItem"><?= $companyName_ar ?></p>
-                <p class="headerItem"><?= $companyName1_en ?></p>
-                <p class="headerItem"><?= $companyName2_ar ?></p>
+            <td align="center" style="width: 70%;">
+                <div class="headerItem"><?= $companyName_en ?></div>  <hr>
+                <div class="headerItem"><?= $companyName_ar ?></div> <hr>
+                <div class="headerItem"><?= $companyName1_en ?></div> <hr>
+                <div class="headerItem"><?= $companyName2_ar ?></div>
             </td>
             <td style="width: 15%;">
                 <img src="<?= $logo ?>" alt="Tawseel Logo" style="height: 80px;">

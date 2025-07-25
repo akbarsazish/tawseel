@@ -138,6 +138,8 @@ public function contract() {
         'margin_bottom' => 40, // Increased for footer
         'margin_header' => 5,
         'margin_footer' => 5,
+        'autoPageBreak' => true,
+        'autoPageBreakMargin' => 20
     ]);
 
     // Set header and footer
