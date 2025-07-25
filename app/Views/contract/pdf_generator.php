@@ -102,6 +102,7 @@
         margin-top: 5px;
     }
     
+
     .headerItem {
         font-weight:bold;
         margin: 0;
@@ -422,8 +423,17 @@
                                 <tr>
                                     <td> 5.1 </td>
                                     <td style="padding:0px; border-left:none; border-right:none">
-                                       <div> 
-                                            Account Management. Nasayim Almaerifa Projects (SDS) shall designate a senior-level executive to be the Account Manager responsible for overseeing COMPANYS account. The Account Manager must have the authority to make decisions concerning all elements.</div>
+                                       <div class="divPadding"> 
+                                          <table>
+                                            <tr>
+                                                <td style="border:0px; border:none;">
+                                                Account Management. Nasayim Almaerifa Projects (SDS) shall designate a senior-level
+executive to be the Account Manager responsible for overseeing COMPANYS account. The
+Account Manager must have the authority to make decisions concerning all elements.
+                                                </td>
+                                            </tr>
+                                          </table>
+                                       </div> <hr>
                                        <div>
                                            Other responsibilities of the Account Manager will include:
                                         </div>
@@ -500,12 +510,19 @@
                     <td colspan="2">
                         <div style="font-weight:bold">
                             &nbsp;  INDEPENDENT CONTRACTOR 
-                        </div> <hr> &nbsp;
-                             Nasayim Almaerifa Projects (SDS) is an independent contractor and shall have sole and exclusive control over the manner in which it,
-                             its employees and agents perform the services to be provided under this Agreement. 
-                             Nasayim Almaerifa Projects (SDS)shall have the right to engage and employ such individuals and agents as may be necessary for connection 
-                             with theservices to be provided under this Agreement, provided that such individuals and agents shall be subject to control, 
-                             contractual or otherwise, solely and exclusively by the Logistics Service Provider. 
+                        </div> <hr>
+                        <table>
+                            <tr>
+                                <td style="border:0px">
+                                     Nasayim Almaerifa Projects (SDS) is an independent contractor and shall have sole and exclusive control over the manner in which it,
+                                    its employees and agents perform the services to be provided under this Agreement. 
+                                    Nasayim Almaerifa Projects (SDS)shall have the right to engage and employ such individuals and agents as may be necessary for connection 
+                                    with theservices to be provided under this Agreement, provided that such individuals and agents shall be subject to control, 
+                                    contractual or otherwise, solely and exclusively by the Logistics Service Provider. 
+                                </td>
+                            </tr>
+                        </table>
+                            
                         </td>
                 </tr>
                 <tr>
@@ -540,7 +557,13 @@
                                                 <tr>
                                                     <td> 8.3.2 </td>
                                                     <td>
-                                                       &nbsp; A reasonable time if the goods are not delivered, in which to file a claim with the Logistics Service Provider. If the amount or extent of the claim cannot reasonably be determined within the [NUMBER] month period, the time for filing the claim shall automatically be extended for an additional [NUMBER] months.
+                                                       <table>
+                                                        <tr>
+                                                            <td style="border:0px">
+                                                                A reasonable time if the goods are not delivered, in which to file a claim with the Logistics Service Provider. If the amount or extent of the claim cannot reasonably be determined within the [NUMBER] month period, the time for filing the claim shall automatically be extended for an additional [NUMBER] months.
+                                                            </td>
+                                                        </tr>
+                                                       </table>
                                                     </td>
                                                 </tr>
                                             </tbody>
@@ -840,13 +863,11 @@
                                 </tr>
                                 <tr>
                                     <td> 16.2 </td>
-                                    <td style="padding:0px;">
-                                        <div style="padding:10px">
-                                            Foreign Corrupt practises Act (“FCPA”), the [COUNTRY] Corruption of Foreign Public
-                                            Officials Act and any amendments thereto which will be supplied to the Logistics Service
-                                            Provider upon request. The Logistics Service Provider must comply with the highest
-                                            standard or requirement set by the laws of [COUNTRY] or policy in any country.
-                                        </div>
+                                    <td>
+                                        Foreign Corrupt practises Act (“FCPA”), the [COUNTRY] Corruption of Foreign Public
+                                        Officials Act and any amendments thereto which will be supplied to the Logistics Service
+                                        Provider upon request. The Logistics Service Provider must comply with the highest
+                                        standard or requirement set by the laws of [COUNTRY] or policy in any country.
                                     </td>
                                 </tr>
                                 <tr>
@@ -895,21 +916,21 @@
                 <tr>
                     <td style="width:6%">  </td>
                     <td> 
-                            The term Prohibited Payment as used herein does not include payments in modest amounts to
-                            government employees for the purpose of expediting and securing a routine administrative
-                            action ordinarily performed by such employees, provided the recipient of such service or action is
-                            entitled to receive such service or action and the payment is customary and appropriate in the
-                            country, provided, however, that Logistics Service Provider must secure advance written
-                            approval from [COMPANY NAME] for any such payments and must periodically report such
-                            payments to [COMPANY NAME] pursuant to the procedures established by [COMPANY NAME]
-                            (which include pre-approvals on a blanket basis).
-                            The term “routine administrative action”, as used herein, refers to actions commonly performed
-                            by certain government officials, including, without limitation, obtaining permits, licences, or other
-                            official documents in order to qualify to do business in a country; processing visas and work
-                            orders; providing police protection, mail pickup and delivery, customs and other inspections;
-                            providing phone and utility services; loading and unloading cargo and actions of a similar nature.
-                            The term “routine administrative action” shall not refer to decisions by a governmental official
-                            related to the award or direction of new or continuing business to any person or entity; <br>
+                        The term Prohibited Payment as used herein does not include payments in modest amounts to
+                        government employees for the purpose of expediting and securing a routine administrative
+                        action ordinarily performed by such employees, provided the recipient of such service or action is
+                        entitled to receive such service or action and the payment is customary and appropriate in the
+                        country, provided, however, that Logistics Service Provider must secure advance written
+                        approval from [COMPANY NAME] for any such payments and must periodically report such
+                        payments to [COMPANY NAME] pursuant to the procedures established by [COMPANY NAME]
+                        (which include pre-approvals on a blanket basis).
+                        The term “routine administrative action”, as used herein, refers to actions commonly performed
+                        by certain government officials, including, without limitation, obtaining permits, licences, or other
+                        official documents in order to qualify to do business in a country; processing visas and work
+                        orders; providing police protection, mail pickup and delivery, customs and other inspections;
+                        providing phone and utility services; loading and unloading cargo and actions of a similar nature.
+                        The term “routine administrative action” shall not refer to decisions by a governmental official
+                        related to the award or direction of new or continuing business to any person or entity; <br>
 
                     <table class="innerTable">
                             <tbody>
