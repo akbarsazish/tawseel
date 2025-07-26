@@ -44,7 +44,7 @@
         vertical-align: middle;
     }
 
-    .info-table .rtl {
+    .info-table, .footerTable .rtl {
         direction: rtl;
         text-align: right;
         font-family: Tahoma, 'Arial', sans-serif;
