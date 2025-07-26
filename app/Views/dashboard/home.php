@@ -12,8 +12,8 @@
     <link href="<?=base_url('assets/css/ostyles.css')?>" rel="stylesheet">
     <!--<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <!--<script src="https://kit.fontawesome.com/c529debf55.js" crossorigin="anonymous"></script>-->
-    <script src="https://kit.fontawesome.com/af4b0dda8b.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c529debf55.js" crossorigin="anonymous"></script>
+    <!--<script src="https://kit.fontawesome.com/af4b0dda8b.js" crossorigin="anonymous"></script>-->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://www.jqueryscript.net/demo/Multi-Select-Plugin-jQuery-MagicSuggest/magicsuggest.css" rel="stylesheet">
     <link rel="stylesheet" href="<?=base_url('assets/css/backendStyle.css')?>">
