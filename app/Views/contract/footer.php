@@ -1,4 +1,4 @@
-<table class="info-table">
+<table class="footerTable">
     <tr>
         <td colspan="3">Mina Al Fahal</td>
         <td>P.O.Box</td>

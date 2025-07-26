@@ -26,8 +26,7 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-
-    <script src="https://kit.fontawesome.com/c529debf55.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/af4b0dda8b.js" crossorigin="anonymous"></script>
 
 
     </head>

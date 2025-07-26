@@ -125,7 +125,7 @@ $routes->group('keyhighlight', function($routes) {
     $routes->get('show/(:segment)', 'KeyHighLight::show/$1');
 });
 
-$routes->group('HighLightItems', function($routes) {
+$routes->group('highlightitems', function($routes) {
     $routes->get('/', 'HighLightItem::index');
     $routes->get('create', 'HighLightItem::create');
     $routes->post('save', 'HighLightItem::save');

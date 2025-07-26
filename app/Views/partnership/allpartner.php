@@ -41,8 +41,6 @@
         <?php else: ?>
             <p>No partnership items found.</p>
         <?php endif; ?>
-
-
     
     </div>
 </div>

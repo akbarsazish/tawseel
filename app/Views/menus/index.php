@@ -5,7 +5,7 @@
             <div class="col-lg-6">
                 <h5><?= lang('app.menu') ?></h5>
             </div>
-            <div class="col-lg-6 text-right">
+            <div class="col-lg-6 text-end">
                 <a href="javascript:void(0)" onclick="loadMe('<?= base_url('menus/create') ?>')" class="btn btn-primary" id="siteInfoAddBtn" >
                     <?= lang('app.add_menu') ?> <i class="fa fa-plus"></i>
                 </a>

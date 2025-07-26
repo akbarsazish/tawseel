@@ -1,6 +1,6 @@
 <div class="card mb-4">
     <div class="card-header">
-        <h3 class="h4 mb-0"><?= lang('app.update_key_highlight') ?></h3>
+        <h3 class="h4 mb-0"><?= lang('app.keyHighlights') ?></h3>
     </div>
     <div class="card-body">
         <form id="myForm" data-url="<?= base_url('keyhighlight/update/'. enc($keyHightlight['id'])) ?>"  method="POST">

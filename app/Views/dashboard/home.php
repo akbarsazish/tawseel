@@ -217,7 +217,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="javascript:void(0)" onclick="loadMe('<?= base_url('HighLightItems') ?>')">
+                    <a href="javascript:void(0)" onclick="loadMe('<?= base_url('highlightitems') ?>')">
                         <span class="nav-label"><?=lang('app.key_highlight_Item')?></span> 
                     </a>
                 </li>

@@ -4,7 +4,7 @@
             <div class="col-lg-6">
                 <h5><?= lang('app.menu_item') ?></h5>
             </div>
-            <div class="col-lg-6 text-right">   
+            <div class="col-lg-6 text-end">   
                 <a href="javascript:void(0)" onclick="loadMe('<?= base_url('menus/'.enc($menu['id']).'/items/create') ?>')" class="btn btn-sm btn-primary" >
                     <?= lang('app.add_menu_item') ?>  <i class="fa fa-plus"></i>
                 </a>
