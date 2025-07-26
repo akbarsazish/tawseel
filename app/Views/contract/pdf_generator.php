@@ -145,7 +145,7 @@
     <div class="contract-container">
         
         <!-- Page 1 -->
-        <table class="info-table" style="margin-top:10px;">
+        <table class="info-table" style="margin-top:-10px;">
             <tr>
                 <td colspan="6"  style="text-align: center; font-size:18px; font-weight:bold">
                     CONFIDENTIAL CONTRACT FOR LOGISTICS SERVICES
@@ -820,7 +820,7 @@ Account Manager must have the authority to make decisions concerning all element
                     <td style="width:6%"> &nbsp; 14 </td>
                     <td colspan="2" style="border-left:none; border-right:none">
                         <div style="font-weight:bold">
-                            ENVIRONMENTAL POLICY  
+                            &nbsp; ENVIRONMENTAL POLICY  
                         </div> <hr>
                         <div>
                             [COMPANY NAME] is committed to the goal of continuously improving its environmental impact
