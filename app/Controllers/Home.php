@@ -41,13 +41,13 @@ class Home extends BaseController
     
     public function index(): string {
 
-    $whitelist = ['37.41.58.204','149.54.36.213'];
+    /*$whitelist = ['37.41.58.204','149.54.36.213'];
     $clientIP = $this->request->getIPAddress();
     
         if (!in_array($clientIP, $whitelist) || 1==1) 
         {
             throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
-        }
+        }*/
 
 
         $siteInfo = $this->siteInfoModel->first();
