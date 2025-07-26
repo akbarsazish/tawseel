@@ -289,15 +289,116 @@
                 <div class="clause">
                     <div class="clause-title"><i class="fas fa-file-signature"></i> 20 Termination</div>
                     <div class="clause-content">
-                        <pre style="margin-left:2rem; font-family: inherit; white-space: pre-wrap;" contenteditable="true" onblur="updatefield(this, 'termination_desc');"><?= $record['termination_desc'] ?></pre>
-                        <pre style="margin-left:2rem; font-family: inherit; white-space: pre-wrap;" contenteditable="true" onblur="updatefield(this, 'confidentiality_desc');"><?= $record['confidentiality_desc'] ?></pre>
+                        <pre style="font-family: inherit; white-space: pre-wrap;" contenteditable="true" onblur="updatefield(this, 'termination_desc');"><?= $record['termination_desc'] ?></pre>
                     </div>
                 </div>
-            </div>
             
-            <div class="signatures">
+                <div class="clause">
+                    <div class="clause-title"><i class="fas fa-hands-helping"></i> 21 Continuing Cooperation</div>
+                    <div class="clause-content">
+                        <pre style="font-family: inherit; white-space: pre-wrap;" contenteditable="true" onblur="updatefield(this, 'confidentiality_desc');"><?= $record['confidentiality_desc'] ?></pre>
+                    </div>
+                </div>    
+                
+                <div class="clause">
+                    <div class="clause-title"><i class="fas fa-cloud-showers-heavy"></i> 22 Force Majeure</div>
+                    <div class="clause-content">
+                        <pre style="font-family: inherit; white-space: pre-wrap;" contenteditable="true" onblur="updatefield(this, 'force_majeure_desc');"><?= $record['force_majeure_desc'] ?></pre>
+                    </div>
+                </div> 
+                
+                <div class="clause">
+                    <div class="clause-title"><i class="fas fa-paragraph"></i> 23 Headings</div>
+                    <div class="clause-content">
+                        <pre style="font-family: inherit; white-space: pre-wrap;" contenteditable="true" onblur="updatefield(this, 'headings_desc');"><?= $record['headings_desc'] ?></pre>
+                    </div>
+                </div>
+
+                <div class="clause">
+                    <div class="clause-title"><i class="fas fa-balance-scale-right"></i> 24 Severability</div>
+                    <div class="clause-content">
+                        <pre style="font-family: inherit; white-space: pre-wrap;" contenteditable="true" onblur="updatefield(this, 'severability_desc');"><?= $record['severability_desc'] ?></pre>
+                    </div>
+                </div> 
+                  
+            <div class="clause">
+                <div class="clause-title"><i class="fas fa-envelope"></i> 25 Notices</div>
+                <div class="clause-content">
+                    <pre style="margin-bottom: 0px; font-family: inherit; white-space: pre-wrap;" contenteditable="true" onblur="updatefield(this, 'notices_desc');"><?=$record['notices_desc']?></pre>
+                </div>
+
+                    <div class="party-container">
+                        <div class="party-card">
+                            <div class="party-name"><i class="fas fa-truck"></i> #Auto</div>
+                            <div class="party-details">
+                                <div class="detail-label">Address:</div>
+                                <div class="detail-value">#Auto</div>
+                                
+                                <div class="detail-label">Phone:</div>
+                                <div class="detail-value">#Auto</div>
+                                
+                                <div class="detail-label">Email:</div>
+                                <div class="detail-value">#Auto</div>
+                            </div>
+                        </div>
+                        
+                        <div class="party-card">
+                            <div class="party-name"><i class="fas fa-building"></i> <bdi editable="true"  contenteditable="true" onblur="updatefield(this, 'legal_name');"><?= $record['legal_name']?></bdi></div>
+                            <div class="party-details">
+                                <div class="detail-label">Address:</div>
+                                <div class="detail-value" contenteditable="true" onblur="updatefield(this, 'address');"><?=$record['address']?></div>
+                                
+                                <div class="detail-label">Phone:</div>
+                                <div class="detail-value" contenteditable="true" onblur="updatefield(this, 'phone');"><?= $record['phone']?></div>
+                                
+                                <div class="detail-label">Email:</div>
+                                <div class="detail-value" contenteditable="true" onblur="updatefield(this, 'email');"><?= $record['email']?></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+
+                <div class="clause">
+                    <div class="clause-title"><i class="fas fa-file-contract"></i> 26 Entire Agreement</div>
+                    <div class="clause-content">
+                        <pre style="font-family: inherit; white-space: pre-wrap;" contenteditable="true" onblur="updatefield(this, 'entire_agreement_desc');"><?= $record['entire_agreement_desc'] ?></pre>
+                    </div>
+                </div>
+
+                <div class="clause">
+                    <div class="clause-title"><i class="fas fa-hand-paper"></i> 27 Waiver</div>
+                    <div class="clause-content">
+                        <pre style="font-family: inherit; white-space: pre-wrap;" contenteditable="true" onblur="updatefield(this, 'waiver_desc');"><?= $record['waiver_desc'] ?></pre>
+                    </div>
+                </div>  
+                
+                <div class="clause">
+                    <div class="clause-title"><i class="fas fa-sort-amount-down"></i> 28 Precedence</div>
+                    <div class="clause-content">
+                        <pre style="font-family: inherit; white-space: pre-wrap;" contenteditable="true" onblur="updatefield(this, 'precedence_desc');"><?= $record['precedence_desc'] ?></pre>
+                    </div>
+                </div>     
+                
+                <div class="clause">
+                    <div class="clause-title"><i class="fas fa-heartbeat"></i> 29 Survival</div>
+                    <div class="clause-content">
+                        <pre style="font-family: inherit; white-space: pre-wrap;" contenteditable="true" onblur="updatefield(this, 'survival_desc');"><?= $record['survival_desc'] ?></pre>
+                    </div>
+                </div>    
+                
+                <div class="clause">
+                    <div class="clause-title"><i class="fas fa-coins"></i> 30 Currency</div>
+                    <div class="clause-content">
+                        <pre style="font-family: inherit; white-space: pre-wrap;" contenteditable="true" onblur="updatefield(this, 'currency_desc');"><?= $record['currency_desc'] ?></pre>
+                    </div>
+                </div>                
+
+            </div>
+
+            IN WITNESS WHEREOF, each party to this agreement has caused it to be executed at Muscat on the date indicated above.
+            <div class="signatures" style="margin-top:0px;">
                 <div class="signature-block">
-                    <div class="signature-title">For Tawseel E-Commerce and Logistics LLC</div>
+                    <div class="signature-title">For <?=$record['legal_name']?></div>
                     <div class="signature-line"></div>
                     <div class="signature-name">Authorized Signatory</div>
                     <div class="signature-date">Date: #Auto</div>

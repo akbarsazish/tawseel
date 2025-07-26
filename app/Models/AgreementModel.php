@@ -62,5 +62,14 @@ class AgreementModel extends Model
         'non_assignability_desc',
         'confidentiality_desc',
         'confidentiality',
+        'force_majeure_desc',
+        'headings_desc',
+        'severability_desc',
+        'notices_desc',
+        'entire_agreement_desc',
+        'waiver_desc',
+        'precedence_desc',
+        'survival_desc',
+        'currency_desc',
     ];
 }
