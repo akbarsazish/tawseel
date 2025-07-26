@@ -1061,6 +1061,8 @@ public function individual()
         $id = $this->request->getPost('id');
         $field = $this->request->getPost('field');
         $value = $this->request->getPost('value');
+        $value = str_replace(["\r\n", "\n\r", "\r"], "\n", $value);
+
         $this->AgreementTempModel->update($id, [$field => $value]);
     }
 

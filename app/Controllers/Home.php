@@ -41,15 +41,16 @@ class Home extends BaseController
     
     public function index(): string {
 
-    $whitelist = ['37.41.58.204','149.54.36.213'];
+    /*$whitelist = ['37.41.58.204','149.54.36.213','127.0.0.1'];
     $clientIP = $this->request->getIPAddress();
     
-        if (!in_array($clientIP, $whitelist)) 
+        if (!in_array($clientIP, $whitelist) || 1==1) 
             {
             throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
             // or
             // return $this->response->setStatusCode(403)->setBody("Access denied");
         }
+        */
 
         $siteInfo = $this->siteInfoModel->first();
         $result = $this->HomeInfoModel->get();

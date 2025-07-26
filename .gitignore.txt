@@ -1,0 +1,11 @@
+/writable
+writable
+.env
+.env.backup
+.phpunit.result.cache
+/.idea
+/.vscode
+/config
+.codegpt
+/app/controllers/Home
+app/controllers/Home
